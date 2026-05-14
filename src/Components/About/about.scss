@@ -1169,3 +1169,55 @@
   width: 42px;
   height: 42px;
 }
+
+
+// icons skill 3 
+.skills__card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 12px;
+  min-height: 92px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.skills__icon {
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.skills__icon img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  display: block;
+}
+
+.skills__details {
+  flex: 1;
+  min-width: 0;
+}
+
+.skills__details .ptext {
+  font-size: 13px;
+  line-height: 1.2;
+  margin-bottom: 4px;
+  color: #bfbfbf;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.skills__details h1 {
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+  color: #fff;
+}

@@ -109,21 +109,24 @@ const Skills = ({ isTabActive }) => {
                       <h3>{category.title}</h3>
                     </div>
 
-                    <div className="row g-4">
-                      {category.items.map(({ id, skill, image, percentage }) => (
-                        <div key={id} className="col-xxl-6 col-xl-6 col-lg-12 col-md-6">
-                          <div className="abox myskill__item skills__card">
-                            <div className="thumb skills__icon">
-                              <img src={image} alt={skill} />
-                            </div>
-                            <div className="mys skills__details">
-                              <span className="ptext d-block">{skill}</span>
-                              <h1 className="fw-600">{percentage}</h1>
-                            </div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
+<div className="row g-4">
+  {category.items.map(({ id, skill, image, percentage }) => (
+    <div key={id} className="col-12 col-md-6 col-lg-3 d-flex">
+      <div className="abox myskill__item skills__card h-100 w-100">
+        <div className="thumb skills__icon">
+          <img src={image} alt={skill} />
+        </div>
+
+        <div className="mys skills__details">
+          <span className="ptext d-block text-truncate" title={skill}>
+            {skill}
+          </span>
+          <h1 className="fw-600">{percentage}</h1>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
                   </div>
                 ))}
               </div>

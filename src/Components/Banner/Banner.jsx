@@ -8,6 +8,7 @@ import {
   Globe,
   Instagram,
   PlayFill,
+  Whatsapp,
 } from "react-bootstrap-icons";
 
 import bannerMan from "../../assets/img/banner/banner-man.png";
@@ -35,8 +36,8 @@ const socalIcon = [
   },
   {
     id: 4,
-    icon: <Globe />,
-    link: "#",
+    icon: <Whatsapp />,
+    link: "https://wa.me/4917646602477",
   },
   {
     id: 5,
