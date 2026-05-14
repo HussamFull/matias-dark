@@ -36,6 +36,13 @@ const Contact = () => {
                   <span className="he1">Email</span>
                   <a href="#0">alnabelsi.hussam@gmail.com</a>
                 </div>
+
+
+
+
+
+
+                
                 <div className="contact__item mb-20">
                   <span className="he1">Phone</span>
                   <a href="#0">+(49) 176 466 024 77</a>

@@ -1,6 +1,7 @@
 import React from "react";
-import {Envelope, GeoAlt} from "react-bootstrap-icons"
-import mettingImag from "../../assets/img/project/project-need.png"
+import {Envelope, Whatsapp } from "react-bootstrap-icons"
+import mettingImag from "../../assets/img/project/project-need.png";
+
 const Metting = () => {
   return (
     <section className="project__metting overhid pt-120 pb-120">
@@ -34,7 +35,11 @@ const Metting = () => {
                 </span>
                 <span className="box">
                   <span className="ptext fz-18 mb-1 d-block"> Email </span>
-                  <a href="#0"> davidmatias333@gmail.com </a>
+                 <a href="mailto:alnabelsi.hussam@gmail.com" className="email-link">
+    alnabelsi.hussam@gmail.com
+  </a>
+                                
+
                 </span>
               </div>
               <div
@@ -43,11 +48,13 @@ const Metting = () => {
                 data-aos-duration="1500"
               >
                 <span className="icon">
-                  <GeoAlt className="i"/>
+                  <Whatsapp  className="i"/>
                 </span>
                 <span className="box">
-                  <span className="ptext fz-18 mb-1 d-block"> Location </span>
-                  <a href="#0"> Victoria Street London, England </a>
+                  <span className="ptext fz-18 mb-1 d-block"> Contact </span>
+                  <a href="https://wa.me/4917646602477" target="_blank" rel="noopener noreferrer">
+                    Contact me on Whatsapp
+                  </a>
                 </span>
               </div>
             </div>

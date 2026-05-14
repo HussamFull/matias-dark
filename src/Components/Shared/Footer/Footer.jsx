@@ -65,8 +65,41 @@ const Footer = () => {
                 <p>
                   Hello, I’m Hussam Alnabelsi , Website & User Interface Designer
                   based in Münster.
+                  
                 </p>
-               <a href="mailto:alnabelsi.hussam@gmail.com">alnabelsi.hussam@gmail.com</a>
+<p className="email-text">
+  <a href="mailto:alnabelsi.hussam@gmail.com" className="email-link">
+    alnabelsi.hussam@gmail.com
+  </a>
+</p> 
+
+
+
+              <div className="col-lg-12">
+  <button
+    type="button"
+    onClick={() => (window.location.href = "mailto:alnabelsi.hussam@gmail.com")}
+    className="d-flex fw-500 cmn--btn align-items-center gap-2"
+  >
+    <span className="get__text">Email</span>
+    <span>
+      <i className="fz-20">
+        <ArrowRight />
+      </i>
+    </span>
+  </button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
               </div>
             </div>
             <div className="col-lg-6">
