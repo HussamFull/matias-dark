@@ -4,6 +4,7 @@ import html from "../../assets/img/about/html.png";
 import boot from "../../assets/img/about/boot.png";
 import word from "../../assets/img/about/word.png";
 import figma from "../../assets/img/about/figma.png";
+import logo from "../../assets/img/logo/logo.png";
 
 const skillCategories = [
   {
@@ -12,7 +13,7 @@ const skillCategories = [
     items: [
       { id: 1, skill: "HTML", percentage: "100%", image: html },
       { id: 2, skill: "CSS", percentage: "100%", image: html },
-      { id: 3, skill: "JavaScript", percentage: "100%", image: figma },
+      { id: 3, skill: "JavaScript", percentage: "100%", image: logo },
       { id: 4, skill: "Bootstrap", percentage: "100%", image: boot },
       { id: 5, skill: "Material UI", percentage: "100%", image: boot },
       { id: 6, skill: "jQuery", percentage: "100%", image: figma },

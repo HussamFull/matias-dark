@@ -2,27 +2,54 @@ import React from "react";
 import { ArrowUpShort, ArrowRight } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 
-const socalList = [
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaWhatsapp,
+  FaLinkedinIn,
+  FaGithub,
+  FaArrowRight,
+} from "react-icons/fa";
+
+
+
+const socialList = [
   {
     id: 1,
-    platfrom: "Facebook",
-    icon: <ArrowRight />,
+    platform: "Facebook",
+    icon: <FaFacebookF />,
+    link: "https://www.facebook.com/HussamAlnabelsi",
   },
   {
     id: 2,
-    platfrom: "Instagram",
-    icon: <ArrowRight />,
+    platform: "Instagram",
+    icon: <FaInstagram />,
+    link: "https://www.instagram.com/hussamalnabelsi/",
   },
   {
     id: 3,
-    platfrom: "Dribble",
-    icon: <ArrowRight />,
+    platform: "WhatsApp",
+    icon: <FaWhatsapp />,
+    link: "https://wa.me/4917646602477",
   },
   {
     id: 4,
-    platfrom: "Webflow",
-    icon: <ArrowRight />,
+    platform: "LinkedIn",
+    icon: <FaLinkedinIn />,
+    link: "https://www.linkedin.com/in/hussam-alnabelsi/",
   },
+  {
+    id: 5,
+    platform: "GitHub",
+    icon: <FaGithub />,
+    link: "https://github.com/HussamFull/",
+  },
+  {
+    id: 6,
+    platform: "Xing",
+    icon: <FaArrowRight />,
+    link: "https://www.xing.com/profile/Hussam_ALNABELSI",
+  }
 ];
 const Footer = () => {
   return (
@@ -36,20 +63,20 @@ const Footer = () => {
             <div className="col-lg-6">
               <div className="get__content">
                 <p>
-                  Hello, I’m David Matias, Website & User Interface Designer
-                  based in London.
+                  Hello, I’m Hussam Alnabelsi , Website & User Interface Designer
+                  based in Münster.
                 </p>
-                <a href="#0">davidmatias333@gmail.com</a>
+               <a href="mailto:alnabelsi.hussam@gmail.com">alnabelsi.hussam@gmail.com</a>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="get__rightcontetn">
                 <div className="row g-4">
-                  {socalList.map(({ id, icon, platfrom }) => {
+                  {socialList.map(({ id, icon, platform, link }) => {
                     return (
                       <div key={id} className="col-lg-6 col-md-6 col-sm-6">
-                        <a href="#0" className="social__footer">
-                          {platfrom}
+                        <a href={link} className="social__footer" target="_blank" rel="noopener noreferrer">
+                          {platform && <span className="me-2">{platform}</span>}
                           <i>{icon}</i>
                         </a>
                       </div>
@@ -65,9 +92,9 @@ const Footer = () => {
         <div className="container">
           <div className="copyright">
             <p className="white">
-              Copyright © 2023 {" "}
+              Copyright © 2026 {" "}
               <Link to={"/"} className="base">
-                Matias.
+                Alnabelsi.Hussam
               </Link>{" "}
               All rights reserved.
             </p>

@@ -3,7 +3,10 @@ import PageHeader from "../../Components/Shared/PageHeader/PageHeader";
 import Form from "../../Components/Shared/Form/Form";
 import { ScrollRestoration } from "react-router-dom";
 
+
 const Contact = () => {
+
+
   return (
     <>
       <PageHeader
@@ -31,15 +34,15 @@ const Contact = () => {
                 <h4 className="mb-30">Feel free to contact me anytime</h4>
                 <div className="contact__item mb-20">
                   <span className="he1">Email</span>
-                  <a href="#0">davidmatias333@gmail.com</a>
+                  <a href="#0">alnabelsi.hussam@gmail.com</a>
                 </div>
                 <div className="contact__item mb-20">
                   <span className="he1">Phone</span>
-                  <a href="#0">+(2) 871 382 023</a>
+                  <a href="#0">+(49) 176 466 024 77</a>
                 </div>
                 <div className="contact__item">
                   <span className="he1">Address</span>
-                  <span className="address">Victoria Street London</span>
+                  <span className="address">Münster , Deutschland</span>
                 </div>
               </div>
             </div>
