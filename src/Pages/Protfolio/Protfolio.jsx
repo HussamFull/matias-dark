@@ -30,8 +30,13 @@ const categoryList = [
   },
   {
     id: 5,
-    categoryName: "Website",
+    categoryName: "Full-Stack",
     value: "website",
+  },
+   {
+    id: 6,
+    categoryName: "Mobile App",
+    value: "mobile_app",
   },
 ];
 const Protfolio = () => {

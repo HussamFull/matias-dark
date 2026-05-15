@@ -34,8 +34,8 @@ const Home = () => {
       <Metting />
       <Services isHeading={true} />
       <WorkeProcess />
-      <Testimonial />
-      <Blogs />
+     {/* <Testimonial />  */}
+     {/*  <Blogs /> */}
       <ScrollRestoration/>
     </>
   );

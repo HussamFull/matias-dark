@@ -42,6 +42,7 @@ const menuList = [
       },
     ],
   },
+  {/* 
   {
     id: 5,
     path: "/",
@@ -65,7 +66,8 @@ const menuList = [
         name: "Blog Details",
       },
     ],
-  },
+  }
+    */},
   {
     id: 7,
     path: "/contact",
